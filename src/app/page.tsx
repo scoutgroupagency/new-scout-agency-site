@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 const url = getCldOgImageUrl({ src: "home-page-og_dpe1cb" });
 
 export const metadata: Metadata = {
-  title: "Home - Scout Group Agency",
+  title: "Scout Group Agency",
   description:
     "Our organization is dedicated to redefining tourism by promoting accessibility and inclusivity for everyone. ",
   openGraph: {
