@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="min-h-screen w-full ">
       <div className="flex flex-wrap md:flex-nowrap">
-        <div className="w-full h-[20vh] md:min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750256218/get-involved_Hero_image_n0sxgf.png')] bg-cover bg-center">
+        <div className="w-full h-[20vh] md:min-h-screen bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1757587167/get-involved_Hero_image_n0sxgf_kyavuy.webp')] bg-cover bg-center">
         {/* <div className="min-h-screen bg-black/0 backdrop-blur-lg"></div> */}
         </div>
         <div className="w-full grid place-content-center bg-scoutGreen4 text-slate-100">

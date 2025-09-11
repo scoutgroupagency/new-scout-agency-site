@@ -33,7 +33,7 @@ export default function OurStorySection() {
               </div>
             ))}
           </div>
-          <div className="min-h-[60vh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1738216645/home_our_story_rx1s4r.png')] bg-cover bg-center rounded-lg">
+          <div className="min-h-[60vh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1757586516/home_our_story_rx1s4r_z1lngf.webp')] bg-cover bg-center rounded-lg">
             <div className="flex flex-col justify-start space-y-4 text-white px-4 py-8">
               <h2 className="font-thin text-slate-400">Our story</h2>
               <div className="border rounded-lg w-full md:w-7/12 space-y-4 px-4 py-6">

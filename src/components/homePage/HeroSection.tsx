@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 export default function HeroSection() {
   return (
     <>
-      <section className="min-h-[90dvh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1750324992/scout_home_Hero_image_c0mmak.png')] bg-no-repeat bg-cover bg-bottom">
+      <section className="min-h-[90dvh] bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1757586549/scout_home_Hero_image_c0mmak_vn8g1b.webp')] bg-no-repeat bg-cover bg-bottom">
         {/* <div className="min-h-[90dvh] bg-black/60 backdrop-blur"> */}
           <div className="container mx-auto px-4 py-10">
             <div className="min-h-[90dvh]  flex  justify-start items-center gap-4 ">
