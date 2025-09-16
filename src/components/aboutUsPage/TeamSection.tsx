@@ -47,7 +47,7 @@ export default function TeamSection() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-12 mt-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-12 mt-20 ">
           {teamMembers.map((member) => (
             <div
               key={member.id}
