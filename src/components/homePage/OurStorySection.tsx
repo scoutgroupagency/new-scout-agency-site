@@ -3,6 +3,7 @@ import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import clsx from "clsx";
+import Link from "next/link";
 
 export default function OurStorySection() {
   return (
@@ -61,11 +62,14 @@ export default function OurStorySection() {
                 <p className="c">Together, we make travel barrier-free.</p>
               </div>
               <Button
+                asChild
                 variant="outline"
                 size="default"
                 className="text-green-600 bg-transparent font-medium border-green-600 w-48"
               >
-                Learn More...
+                <Link href={`/about-us`}>
+                  Learn More...
+                </Link>
               </Button>
             </div>
           </div>

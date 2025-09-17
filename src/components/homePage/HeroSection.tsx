@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 
 export default function HeroSection() {
@@ -16,10 +17,13 @@ export default function HeroSection() {
                   experiences
                 </p>
                 <Button
+                  asChild
                   size="lg"
                   className="text-xl bg-scoutGreen1 hover:bg-green-500 hover:scale-110 transition duration-300"
                 >
-                  Get Involved
+                  <Link href={`/get-involved`}>
+                    Get Involved
+                  </Link>
                 </Button>
               </div>
             </div>

@@ -8,8 +8,8 @@ export default function FooterSection() {
   return (
     <>
       <section className="bg-scoutGreen4 text-slate-100 pb-20">
-        <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-8 items-center justify-evenly px-4 pb-10 ">
-          <div className="">
+        <div className="container mx-auto flex flex-wrap gap-x-12 gap-y-12 items-center justify-evenly px-4 pb-10 ">
+          <div className="w-full md:w-3/12 grid place-content-center">
             <CloudinaryImage
                 src="scout_logo_b1mzxq"
                 height={400}

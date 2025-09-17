@@ -19,8 +19,8 @@ import { Menu } from "lucide-react";
 export default function NavigationSection() {
   return (
     <>
-      <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30">
-        <NavigationMenu viewport={false} className="">
+      <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30 sticky top-0">
+        <NavigationMenu viewport={false} className="bg-black/5 backdrop-blur-lg">
           <NavigationMenuList className="w-[95dvw]  flex justify-between md:justify-between px-8">
             <NavigationMenuItem className=" w-full">
               <Link href="/">

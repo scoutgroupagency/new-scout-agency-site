@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CloudinaryImage from "../CloudinaryImage";
 import { Button } from "../ui/button";
 
@@ -33,11 +34,14 @@ export default function WhoWeServeSection() {
               thrive.,
             </p>
             <Button
+            asChild
               size="lg"
               variant="outline"
               className="text-lg  text-green-500 hover:scale-110 transition duration-300"
             >
-              Take Action...
+              <Link href={`/get-involved`}>
+                Take Action...
+              </Link>
             </Button>
           </div>
         </div>

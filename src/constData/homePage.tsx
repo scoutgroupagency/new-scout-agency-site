@@ -179,17 +179,17 @@ export const footerEntries = [
       {
         id: 1,
         heading: "Our Vision",
-        link: "",
+        link: "/about-us",
       },
       {
         id: 2,
         heading: "Our Mission",
-        link: "",
+        link: "/about-us",
       },
       {
         id: 3,
         heading: "Our Team",
-        link: "",
+        link: "/about-us#our-team",
       },
     ],
   },
@@ -200,17 +200,17 @@ export const footerEntries = [
       {
         id: 1,
         heading: "Zurura initiative",
-        link: "",
+        link: "/zurura-initiative",
       },
       {
         id: 2,
         heading: "Accessible Tourism ",
-        link: "",
+        link: "/zurura-initiative",
       },
       {
         id: 3,
         heading: "Research & training",
-        link: "",
+        link: "/zurura-initiative",
       },
     ],
   },
@@ -226,12 +226,12 @@ export const footerEntries = [
       {
         id: 2,
         heading: "Contact Us",
-        link: "",
+        link: "/about-us",
       },
       {
         id: 3,
         heading: "Blogs & Stories ",
-        link: "",
+        link: "/blogs-and-articles",
       },
     ],
   },
@@ -241,19 +241,19 @@ export const socialEntries = [
   {
     id: 1,
     Platform: "X",
-    Link: "",
+    Link: "https://x.com/",
     icon: <X size={20} />,
   },
   {
     id: 2,
     Platform: "LinkedIn",
-    Link: "",
+    Link: "https://www.linkedin.com/",
     icon: <Linkedin size={20} />,
   },
   {
     id: 3,
     Platform: "Facebook",
-    Link: "",
+    Link: "https://www.facebook.com/",
     icon: <FacebookIcon size={20} />,
   },
 ];

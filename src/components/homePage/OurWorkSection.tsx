@@ -17,11 +17,14 @@ export default function OurWorkSection() {
               for All
             </p>
             <Button
+            asChild
               variant="outline"
               size="default"
               className="text-slate-700 bg-transparent font-medium border-slate-700 w-full md:w-48 hover:scale-110 transition duration-300"
             >
-              Learn More...
+              <Link href={`/about-us`}>
+                Learn More...
+              </Link>
             </Button>
           </div>
           <div className="h-[40vh] w-full bg-slate-400 rounded-lg">
@@ -49,6 +52,7 @@ export default function OurWorkSection() {
               <p className=" text-balance">{entry.highlight}</p>
               <div className="flex justify-end">
                 <Button
+                asChild
                   variant="outline"
                   size="default"
                   className="text-zinc-100 bg-transparent font-medium border-zinc-100 w-48 hover:scale-110 transition duration-300"

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CloudinaryImage from "../CloudinaryImage";
 import { Button } from "../ui/button";
 
@@ -31,11 +32,14 @@ export default function GetInvolvedSection() {
               can explore the world without barriers.
             </p>
             <Button
+            asChild
               variant="outline"
               size="default"
               className="text-green-600 bg-transparent font-medium border-green-600 w-48 hover:scale-110 transition duration-300"
             >
-              Learn More...
+              <Link href={`/get-involved`}>
+                Learn More...
+              </Link>
             </Button>
           </div>
         </div>
