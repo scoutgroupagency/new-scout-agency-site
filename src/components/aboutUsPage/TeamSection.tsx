@@ -75,7 +75,7 @@ export default function TeamSection() {
                     &quot;{member.statement}&quot;
                   </p>
                   <div className="w-32 flex  justify-evenly items-center gap-2">
-                    <Link href={member.xLink}>
+                    {/* <Link href={member.xLink}>
                       <X className="border border-black size-5 hover:scale-110 transition duration-300 rounded-lg p-1" />
                     </Link>
                     <Link href={member.instagramLink}>
@@ -83,9 +83,9 @@ export default function TeamSection() {
                     </Link>
                     <Link href={member.facebookLink}>
                       <Facebook className="border border-black size-5 hover:scale-110 transition duration-300 rounded-lg p-1" />
-                    </Link>
+                    </Link> */}
                     <Link href={member.linkedInLink}>
-                      <Linkedin className="border border-black size-5 hover:scale-110 transition duration-300 rounded-lg p-1" />
+                      <Linkedin className="border border-black size-6 hover:scale-110 transition duration-300 rounded-lg p-1" />
                     </Link>
                   </div>
                 </div>
