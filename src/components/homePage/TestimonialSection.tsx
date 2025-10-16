@@ -11,7 +11,7 @@ export default function TestimonialSection() {
           <div className="relative ">
             <div className=" rounded-lg w-full h-full  absolute top-20 md:left-10">
               <CloudinaryImage
-                src="Julius_Mbura_renano"
+                src="Julius_testimonial_qf4k0i"
                 height={400}
                 width={400}
                 alt="Person"
