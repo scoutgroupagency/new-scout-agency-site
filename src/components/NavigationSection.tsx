@@ -19,9 +19,9 @@ import { Menu } from "lucide-react";
 export default function NavigationSection() {
   return (
     <>
-      <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-4  z-30 sticky top-0">
+      <nav className=" bg-black/85 backdrop-blur-xl text-white w-full px-0  z-30 sticky top-0">
         <NavigationMenu viewport={false} className="bg-black/5 backdrop-blur-lg">
-          <NavigationMenuList className="w-[95dvw]  flex justify-between md:justify-between px-8">
+          <NavigationMenuList className="w-[99dvw]  flex justify-between md:justify-between px-8 md:px-16 ">
             <NavigationMenuItem className=" w-full">
               <Link href="/">
                 <CloudinaryImage
@@ -80,11 +80,14 @@ export default function NavigationSection() {
               </div>
               <NavigationMenuItem asChild>
                 <Button
+                  asChild
                   variant="default"
                   size="lg"
                   className="bg-scoutGreen1 hover:bg-green-700 hover:scale-110 transition duration-200"
-                >
+                  >
+                  <Link href="https://donations.thenks.co/o/EN-JS00001" target="_blank">
                   Donate
+                  </Link>
                 </Button>
               </NavigationMenuItem>
             </div>

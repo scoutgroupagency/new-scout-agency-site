@@ -5,6 +5,8 @@ import { Button } from "./ui/button";
 import CloudinaryImage from "./CloudinaryImage";
 
 export default function FooterSection() {
+  const date= new Date()
+  const year=date.getFullYear()
   return (
     <>
       <section className="bg-scoutGreen4 text-slate-100 pb-20">
@@ -28,9 +30,18 @@ export default function FooterSection() {
               <p className="mb-6 font-semibold">{entry.title}</p>
               {entry.entries.map((subEntry) => (
                 <div key={subEntry.id} className="py-1">
+                  {subEntry.heading=="Donate" ? (<>
+                  
+                  <Link href={subEntry.link} target="_blank">
+                    {subEntry.heading}
+                  </Link>
+                  </>)
+                  :(<>
                   <Link href={subEntry.link} >
                     {subEntry.heading}
                   </Link>
+                  
+                  </>)}
                 </div>
               ))}
             </div>
@@ -45,7 +56,7 @@ export default function FooterSection() {
               placeholder="Enter your email here..."
               className="outline w-12/12 md:w-10/12 rounded-lg py-3 px-2 text-black bg-white "
             />
-            <Button className="bg-red-500 hover:bg-scoutGreen4 hover:scale-110 transition duration-300 font-semibold">Submit</Button>
+            <Button disabled className="bg-red-500 hover:bg-scoutGreen4 hover:scale-110 transition duration-300 font-semibold">Submit</Button>
           </div>
         </div>
         <Separator className="max-w-5xl mx-auto mt-10" />
@@ -58,7 +69,7 @@ export default function FooterSection() {
             ))}
           </div>
           <p className="c">
-            Copyright © 2025 Scout Group Agency. All rights reserved.
+            Copyright © {year} Scout Group Agency. All rights reserved.
           </p>
         </div>
       </section>

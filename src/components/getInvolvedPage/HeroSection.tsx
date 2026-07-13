@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button";
 
 export default function HeroSection() {
@@ -32,8 +33,10 @@ export default function HeroSection() {
               belong.
             </p>
 
-            <Button className="bg-scoutGreen1 w-48 h-12 hover:bg-green-700 hover:scale-110 transition duration-300 text-xl">
+            <Button asChild className="bg-scoutGreen1 w-48 h-12 hover:bg-green-700 hover:scale-110 transition duration-300 text-xl">
+              <Link href="https://donations.thenks.co/o/EN-JS00001" target="_blank">
               Donate
+              </Link>
             </Button>
           </div>
         </div>

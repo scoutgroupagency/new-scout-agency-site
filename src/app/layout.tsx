@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${dmSans.variable}antialiased`}
+        className={`${dmSans.variable}antialiased overflow-x-hidden`}
       >
         <NavigationSection/>
         {children}

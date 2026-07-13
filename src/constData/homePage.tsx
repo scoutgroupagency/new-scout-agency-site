@@ -221,7 +221,7 @@ export const footerEntries = [
       {
         id: 1,
         heading: "Donate",
-        link: "",
+        link: "https://donations.thenks.co/o/EN-JS00001/",
       },
       {
         id: 2,

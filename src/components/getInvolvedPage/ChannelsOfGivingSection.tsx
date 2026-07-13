@@ -1,5 +1,6 @@
 import { channelsOfGivingEntries } from "@/constData/getInvolvedPage";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ChannelsOfGivingSection() {
   return (
@@ -36,7 +37,14 @@ export default function ChannelsOfGivingSection() {
                     </ul>
                   </div>
                   <div className="c">
-                    <ArrowRight className="size-10" />
+                    {entry.tiltle=="Donations & Sponsorships" ?(<>
+                    <Link href="https://donations.thenks.co/o/EN-JS00001" target="_blank">
+                      <ArrowRight className="size-10 hover:scale-125 hover:bg-green-400 hover:rounded-lg hover:w-20 hover:duration-300" />
+                    </Link>
+                    </>):(<>
+                      <ArrowRight className="size-10" />
+                    
+                    </>)}
                   </div>
                 </div>
               </div>
