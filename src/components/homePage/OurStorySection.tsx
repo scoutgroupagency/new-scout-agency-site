@@ -9,10 +9,10 @@ export default function OurStorySection() {
   return (
     <>
       <section className="max-w-6xl mx-auto  ">
-        <div className="bg-white relative rounded-lg shadow-lg min-h-[80vh] px-4 mx-2  -mt-40">
-          <div className=" flex flex-wrap md:flex-nowrap  w-full justify-center gap-12 py-10">
+        <div className="bg-white relative rounded-lg shadow-lg min-h-[80vh] px-4 pb-8 mx-2  -mt-20 md:-mt-40">
+          <div className=" flex flex-wrap md:flex-nowrap  w-full justify-center gap-12 py-10 ">
             {ourStorySectionEntries.map((entry) => (
-              <div key={entry.id} className="py-0 md:py-10">
+              <div key={entry.id} className="py-0 md:py-5 lg:py-10">
                 <div className="flex md:min-h-20 gap-2 items-center">
                   <p
                     className={clsx(
