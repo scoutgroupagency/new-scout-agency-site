@@ -82,7 +82,7 @@ export default function TeamSection() {
                   <p className=" hidden leading-8">
                     &quot;{member.statement}&quot;
                   </p>
-                  <div className="w-32 flex  justify-evenly items-center gap-2">
+                  <div className="w-32 flex  justify-start lg:justify-evenly items-center gap-2">
                     <Link href={member.linkedInLink}>
                       {/* <Linkedin className="border border-black size-6 hover:scale-110 transition duration-300 rounded-lg p-1" /> */}
                         <FaLinkedin size={32} className="hover:scale-110 transition duration-300"/>
