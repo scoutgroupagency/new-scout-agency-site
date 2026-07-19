@@ -19,7 +19,7 @@ export default function HeroSection() {
                 <Button
                   asChild
                   size="lg"
-                  className="text-xl bg-scoutGreen1 hover:bg-green-500 hover:scale-110 transition duration-300"
+                  className="text-xl py-8 bg-scoutGreen1 hover:bg-green-500 hover:scale-110 transition duration-300"
                 >
                   <Link href={`/get-involved`}>
                     Get Involved
