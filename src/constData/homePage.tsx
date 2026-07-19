@@ -1,4 +1,4 @@
-import { FacebookIcon, Linkedin, X } from "lucide-react";
+import { FaFacebook, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export const ourStorySectionEntries = [
   {
@@ -242,18 +242,18 @@ export const socialEntries = [
     id: 1,
     Platform: "X",
     Link: "https://x.com/",
-    icon: <X size={20} />,
+    icon: <FaXTwitter size={28} className="hover:scale-110 transition duration-300"/>,
   },
   {
     id: 2,
     Platform: "LinkedIn",
     Link: "https://www.linkedin.com/",
-    icon: <Linkedin size={20} />,
+    icon: <FaLinkedin size={28} className="hover:scale-110 transition duration-300"/>,
   },
   {
     id: 3,
     Platform: "Facebook",
     Link: "https://www.facebook.com/",
-    icon: <FacebookIcon size={20} />,
+    icon: <FaFacebook size={28} className="hover:scale-110 transition duration-300"/>,
   },
 ];

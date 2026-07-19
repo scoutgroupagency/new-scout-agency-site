@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CloudinaryImage from "../CloudinaryImage";
-import { Facebook, Instagram, Linkedin, X } from "lucide-react";
+// import { Facebook, Instagram, Linkedin, X } from "lucide-react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { teamMembers } from "@/constData/aboutPage";
 
 export default function TeamSection() {
@@ -35,16 +36,20 @@ export default function TeamSection() {
               </p>
               <div className="w-32 flex  justify-evenly items-center gap-2">
                 <Link href={"https://x.com/home"}>
-                  <X className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" />
+                  {/* <X className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" /> */}
+                  <FaXTwitter size={28} className="hover:scale-110 transition duration-300"/>
                 </Link>
                 <Link href={"https://www.instagram.com/"}>
-                  <Instagram className=" size-7 hover:scale-110 transition duration-300 rounded-lg" />
+                  {/* <Instagram className=" size-7 hover:scale-110 transition duration-300 rounded-lg" /> */}
+                  <FaInstagram size={28} className="hover:scale-110 transition duration-300"/>
                 </Link>
                 <Link href={"https://www.facebook.com/"}>
-                  <Facebook className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" />
+                  {/* <Facebook className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" /> */}
+                  <FaFacebook size={28} className="hover:scale-110 transition duration-300"/>
                 </Link>
                 <Link href={"https://www.linkedin.com/"}>
-                  <Linkedin className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" />
+                  {/* <Linkedin className="border border-black size-7 hover:scale-110 transition duration-300 rounded-lg p-1" /> */}
+                  <FaLinkedin size={28} className="hover:scale-110 transition duration-300"/>
                 </Link>
               </div>
             </div>
@@ -79,8 +84,10 @@ export default function TeamSection() {
                   </p>
                   <div className="w-32 flex  justify-evenly items-center gap-2">
                     <Link href={member.linkedInLink}>
-                      <Linkedin className="border border-black size-6 hover:scale-110 transition duration-300 rounded-lg p-1" />
+                      {/* <Linkedin className="border border-black size-6 hover:scale-110 transition duration-300 rounded-lg p-1" /> */}
+                        <FaLinkedin size={32} className="hover:scale-110 transition duration-300"/>
                     </Link>
+                    
                   </div>
                 </div>
               </div>

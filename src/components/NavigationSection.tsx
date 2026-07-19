@@ -14,7 +14,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import CloudinaryImage from "./CloudinaryImage";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Menu } from "lucide-react";
+
+import { MenuSquareIcon } from "lucide-react";
 
 export default function NavigationSection() {
   return (
@@ -96,7 +97,7 @@ export default function NavigationSection() {
             <div className="block md:hidden">
               <Sheet>
                 <SheetTrigger>
-                  <Menu size={48} className="" />
+                  <MenuSquareIcon size={48} className="" />
                 </SheetTrigger>
                 <SheetContent side="top" className="list-none">
                   <div className="flex flex-col justify gap-y-4  ">

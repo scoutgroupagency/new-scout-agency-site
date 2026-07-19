@@ -64,7 +64,10 @@ export default function FooterSection() {
           <div className="flex items-center justify-center gap-4">
             {socialEntries.map((entry) => (
               <div key={entry.id} className="c">
-                <Link href={entry.Link}>{entry.icon}</Link>
+                <Link href={entry.Link}>
+                {entry.icon}
+               
+                </Link>
               </div>
             ))}
           </div>

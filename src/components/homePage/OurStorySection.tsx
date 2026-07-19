@@ -12,7 +12,7 @@ export default function OurStorySection() {
         <div className="bg-white relative rounded-lg shadow-lg min-h-[80vh] px-4 mx-2  -mt-40">
           <div className=" flex flex-wrap md:flex-nowrap  w-full justify-center gap-12">
             {ourStorySectionEntries.map((entry) => (
-              <div key={entry.id} className="">
+              <div key={entry.id} className="py-10">
                 <div className="flex min-h-20 gap-2 items-center">
                   <p
                     className={clsx(
